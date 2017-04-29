@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="GNC.master.cs" Inherits="GNCLiveWell.GNC" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>GNC Live Well</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<link href="CSs/website.css" rel="stylesheet" type="text/css">
+<link href="CSs/bootstrapfoot.css" rel="stylesheet" type="text/css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" >
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+      <div class="top-header">
+			<div class="container">
+				<div class="top-left">
+					<a href="Default.aspx"> Help +673-7140016</a>				
+					</div>
+					<div class="top-right">
+					<ul>
+						<li><a href="checkout.html">Checkout</a></li>
+						<li><a href="Login.aspx">Login </a></li>
+						<li><a href="CreateAccount.aspx"> Create Account </a></li>
+					</ul>
+					</div>
+						<div class="clearfix"></div>
+								</div>
+			</div>
+			<div class="bottom-header">
+				<div class="container">								
+								<div class="menu-bar">
+									<ul>
+									<li><h1><a href="Default.aspx">GNC <span>Live Well</span></a></h1></li>
+									<li><a href="Default.aspx" class="current">Home</a></li>
+									<li><a href="#">Product</a></li>		
+									<li><a href="#">Best Selling Products</a></li>
+									<li><a href="Contact.aspx"> Contact Us</a></li>	
+										</ul>
+						</div>	
+							</div>						
+								</div>
+        
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">Body Content
+            </asp:ContentPlaceHolder>
+    <div class="footer">
+				<div class="container">
+				<div class="col-md-3 footer">
+				<h4>About </h4>
+				<p>GNC LiveWell is the largest global specialty retailer of health and wellness products - including vitamins, minerals, and herbal supplement products, sport nutrition products and diet products.</p>
+					</div>
+					
+                <div class="col-md-3 footer">
+                    <h4>My Account</h4>
+                    <ul>
+                        <li><a href="checkout.html">Checkout</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="registered.html"> Create Account </a></li>
+                       
+                        	
+                    </ul>
+                    </div>
+                               <div class="col-md-3 footer">
+									<h4>Payment Methods</h4>
+									<ul>
+										<li><img src="Images/PaymentMethod.jpg" alt="payment"></li>
+                                       
+                                        	
+								</ul>
+								</div>
+								<div class="col-md-3 footer">
+									<h4>Contacts</h4>
+									<ul>
+										<li><a href="#">Jalan Kebangsaan,Complex Shopping  Mabohai.Brunei Darussalam</a></li>
+										<li><a href="#">+673 7140016</a><li>
+										<li><a href="#"> example@mail.com</a></li>
+                                      </ul>
+                                   <div class="Validator">
+
+                       <ul>               
+					<li><a href="http://validator.w3.org/check?uri=referer">Validate HTML</a></li>
+                    <li>  <a href="http://achecker.ca/checker/?uri=referer">Check WCAG</a></li>
+									 </ul>
+                                     </div> 
+	
+			</div>
+</div>
+ </div>
+     
+</body>
+</html>
