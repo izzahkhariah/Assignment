@@ -75,10 +75,31 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\website.css" />
+    <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Images\BS1.jpg" />
+    <Content Include="Images\BS2.jpg" />
+    <Content Include="Images\BS3.jpg" />
+    <Content Include="Images\BS4.jpg" />
+    <Content Include="Images\home.jpg" />
+    <Content Include="Images\home2.jpg" />
+    <Content Include="Images\home3.jpg" />
+    <Content Include="Images\Logo.jpg" />
+    <Content Include="Images\PaymentMethod.jpg" />
+    <Content Include="JS\Map.js" />
+    <Content Include="JS\starbox.js" />
+    <Content Include="JS\websiteJS.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -93,8 +114,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="CSS\" />
-    <Folder Include="Images\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

@@ -8,7 +8,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <link href="CSs/website.css" rel="stylesheet" type="text/css">
 <link href="CSs/bootstrapfoot.css" rel="stylesheet" type="text/css">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" >
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
