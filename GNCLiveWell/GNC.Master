@@ -7,9 +7,10 @@
     <title>GNC Live Well</title>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 <link href="CSs/website.css" rel="stylesheet" type="text/css">
-<link href="CSs/bootstrapfoot.css" rel="stylesheet" type="text/css">
+<link href="CSS/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" >
 
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" >
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -37,7 +38,7 @@
 									<li><a href="Default.aspx" class="current">Home</a></li>
 									<li><a href="#">Product</a></li>		
 									<li><a href="#">Best Selling Products</a></li>
-									<li><a href="Contact.aspx"> Contact Us</a></li>	
+									<li><a href="ContactUs.aspx">Contact Us</a></li>	
 										</ul>
 						</div>	
 							</div>						
@@ -64,30 +65,33 @@
                     </div>
                                <div class="col-md-3 footer">
 									<h4>Payment Methods</h4>
-									<ul>
-										<li><img src="Images/PaymentMethod.jpg" alt="payment"></li>
+								
+										<img src="Images/PaymentMethod.jpg" alt="payment">
                                        
                                         	
-								</ul>
+							
 								</div>
 								<div class="col-md-3 footer">
 									<h4>Contacts</h4>
-									<ul>
-										<li><a href="#">Jalan Kebangsaan,Complex Shopping  Mabohai.Brunei Darussalam</a></li>
-										<li><a href="#">+673 7140016</a><li>
-										<li><a href="#"> example@mail.com</a></li>
-                                      </ul>
-                                   <div class="Validator">
+									
+										<p>Jalan Kebangsaan,Complex Shopping Mabohai.Brunei Darussala <br />
+									    +673 7140016<br />
+										 example@mail.com
+                                      </p>
+                                    </div>
+                                     </div>
+ 
+                           <div class="validator">
 
-                       <ul>               
-					<li><a href="http://validator.w3.org/check?uri=referer">Validate HTML</a></li>
-                    <li>  <a href="http://achecker.ca/checker/?uri=referer">Check WCAG</a></li>
-									 </ul>
+                                        
+					     <a href="http://validator.w3.org/check?uri=referer">Validate HTML</a>
+                          <a href="http://achecker.ca/checker/?uri=referer">Check WCAG</a>
+                            <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+									
                                      </div> 
 	
-			</div>
-</div>
- </div>
-     
+			
+
+    </div> 
 </body>
 </html>
