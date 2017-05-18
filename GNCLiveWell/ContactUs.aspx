@@ -47,6 +47,9 @@
                  <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="Invalid Email." ControlToValidate="txtEmail" Font-Size="Small" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
    
     
+                 <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="txtEmail" ErrorMessage="Email Is Required"></asp:RequiredFieldValidator>
+   
+    
                  </p>
       <h6>Name&nbsp;<asp:TextBox ID="txtName" runat="server" Height="30px" Width="303px" BorderColor="Red" BorderStyle="Solid" Font-Size="Small"></asp:TextBox>
 &nbsp;Subject&nbsp;<asp:TextBox ID="txtSub" runat="server"  Height="32px" Width="303px" BorderColor="Red" BorderStyle="Solid" Font-Size="Small"></asp:TextBox>
@@ -59,6 +62,8 @@
              
 
               <asp:TextBox ID="txtmsg" runat="server" Height="137px" TextMode="MultiLine" Width="939px" BorderColor="Red" BorderStyle="Solid"></asp:TextBox>
+              <br />
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtmsg" ErrorMessage="Message is Required"></asp:RequiredFieldValidator>
               <br />
              
            

@@ -27,7 +27,7 @@ namespace GNCLiveWell
 
                 smtpClient.Credentials = credentials;
 
-                MailMessage msg = new MailMessage("livewellwithgnc@gmail.com", txtEmail.Text);
+                MailMessage msg = new MailMessage(txtEmail.Text, "livewellwithgnc@gmail.com");
                 msg.Subject = "Name: " + txtName.Text + "  " + "Subject: " + txtSub.Text;
                 msg.Body = txtmsg.Text;
                 smtpClient.Send(msg);

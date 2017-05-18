@@ -19,21 +19,21 @@ body{
 .top-left {
     float: left; 
 }
-.top-left i {
+.top-left li {
     font-size: 1em;
     margin-left: 0.5em;
 }
-.top-left  a{
-    color:white;
-	font-size: 1em;
-    text-transform: capitalize;
-	text-decoration: none;
-	font-weight: 600;
-	font-family: 'Open Sans', sans-serif;
-	}
+    .top-left ul li a {
+        font-size: 1em;
+        text-transform: capitalize;
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+    }
 .top-right ul li {
     display: inline-block;
-    padding: 0em 1em;
+    padding: 1em;
 }
 .top-right ul li a {
     font-size: 1em;
@@ -51,12 +51,12 @@ body{
 	background:white;
 }
 .menu-bar {
-    margin:0px 0px;
+   
     text-align: center;
  }
 .menu-bar li {
     display: inline-block;
-    padding: 0em 2em;
+    padding:  2em;
 }
 .menu-bar li a{
 	font-size: 1.1em;
@@ -98,7 +98,7 @@ body{
     float:left;
     width: 100%;
      background-color:black;
-    padding: 0em 0.5em;
+    padding: 0.5em;
   
 
 }
@@ -227,7 +227,7 @@ body{
 	text-decoration:underline;
 	font-size:3em;	
 }
-.BS-product h6{
+.product h4{
 	margin-top:1em;
 	text-align:left;
 	color:black;
@@ -236,7 +236,6 @@ body{
 }
 .BS-product1{
 	padding:1em;
-	border:1px solid black;
 	margin-left:0;
 	margin-bottom:3em;
 }
@@ -252,3 +251,90 @@ body{
 	height:60%;
 	background:transparent;
 }
+.BS-product1 h5{
+    text-align:center;
+}
+.Register{
+    text-align: center;
+    font-size: 1.5em;
+    border: 4px solid black;
+    padding:3em;
+    color: black;
+    background: white;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.Register h2 {
+    text-align:center;
+    color: black;
+}
+    .Register h3 {
+        text-align: center;
+        color: black;
+    }
+.Register p{
+    text-align:center;
+}
+.Login {
+    text-align: center;
+    font-size: 1.5em;
+    border: 4px solid black;
+    padding: 3em;
+    color: black;
+    background: white;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+    .Login h2 {
+        text-align: center;
+        color: black;
+    }
+
+    .Login h3 {
+        text-align: center;
+        color: black;
+    }
+
+.Login p {
+        text-align: center;
+
+}
+.productpage h3 {
+    margin-top: 1em;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    font-size: 3em;
+}
+.productpage h4 {
+    margin-top: 1em;
+    text-align: left;
+    color: black;
+    font-size: 1.5em;
+    margin-left: 1em;
+}
+.productList {
+    padding: 1em;
+    margin-left: 0;
+    margin-bottom: 1em;
+}
+    .productList figure {
+        margin: 0;
+        text-align: center;
+        padding: 0;
+        overflow: hidden;
+        z-index: 0;
+    }
+    .productList img {
+        width: 66%;
+        height: 116px;
+        background: transparent;
+    }
+    .productList h5 {
+        text-align: center;
+    }
+
+
+
+
